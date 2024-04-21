@@ -23,5 +23,13 @@ public class Second {
     System.out.println("Graduation Year: " + myStudent.graduationYear);
     // Student abstract method inherited and created from AbstractMain
     myStudent.study();
+
+    // Encapsulation
+    Person myPerson1 = new Person();
+    // Public name field
+    System.out.println(myPerson1.publicName); // This is a public name.
+    // Private name field
+    myPerson1.setName("This is a new string for the private name field");
+    System.out.println(myPerson1.getName()); // This is a new string for the private name field
   }
 }
