@@ -4,6 +4,8 @@
  * This approach is showing that the built-in array in Java needs to be created in a fixed size.
  */
 
+import java.util.*;
+
 public class RemoveEvenInteger {
   public static void printArray(int[] array) {
     int n = array.length;
@@ -40,9 +42,22 @@ public class RemoveEvenInteger {
     return result;
   }
 
+  public static ArrayList<Integer> removeEven2(int[] array) {
+    ArrayList<Integer> result = new ArrayList<Integer>();
+    for (int i : array) {
+      if (i % 2 != 0) {
+        result.add(i);
+      }
+    }
+    System.out.println(result); // [3, 7, 5]
+    return result;
+  }
+
   public static void main(String[] args) {
     int[] input = { 3, 2, 4, 7, 10, 6, 5 };
     printArray(input); // 3 2 4 7 10 6 5
-    removeEven(input); // 3 7 5
+
+    removeEven(input);
+    removeEven2(input);
   }
 }
