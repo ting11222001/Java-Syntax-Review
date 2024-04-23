@@ -1,4 +1,6 @@
+package syntax;
 // Why And When To Use Interfaces?
+
 // Java does not support "multiple inheritance" (a class can only inherit from one superclass). However, it can be achieved with interfaces, because the class can implement multiple interfaces.
 
 interface FirstInterface {

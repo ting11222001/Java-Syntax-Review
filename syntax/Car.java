@@ -1,3 +1,5 @@
+package syntax;
+
 class Vehicle {
   // protected: The code is accessible in the same package and subclasses
   protected String brand = "Ford";

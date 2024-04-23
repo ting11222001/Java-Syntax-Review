@@ -1,3 +1,5 @@
+package syntax;
+
 public class Student extends AbstractMain {
   // Attributes for Student class
   public int graduationYear = 2024;

@@ -1,3 +1,5 @@
+package syntax;
+
 public class Person {
   private String name;
   public String publicName = "This is a public name.";
