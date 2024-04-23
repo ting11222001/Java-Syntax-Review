@@ -1,3 +1,5 @@
+package syntax;
+
 enum Level {
   LOW,
   MEDIUM,
