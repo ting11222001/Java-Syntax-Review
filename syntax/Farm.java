@@ -1,6 +1,5 @@
+package syntax;
 // Inheritance lets us inherit attributes and methods from another class. Polymorphism uses those methods to perform different tasks. This allows us to perform a single action in different ways.
-
-// Polymorphism allows objects of different classes to be treated as objects of a common superclass. In this case, Animal is the superclass, and Pig and Dog are its subclasses.
 
 class Animal {
   public void animalSound() {

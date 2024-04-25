@@ -1,3 +1,5 @@
+package syntax;
+
 public class Second {
   public static void main(String[] args) {
     // Using Multiple Classes

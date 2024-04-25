@@ -1,3 +1,5 @@
+package syntax;
+
 interface InterfaceAnimal {
   public void animalSound(); // interface method (does not have a body)
 

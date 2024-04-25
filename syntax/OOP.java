@@ -1,3 +1,5 @@
+package syntax;
+
 public class OOP {
   // Attributes created for OOP class
   int h = 5;

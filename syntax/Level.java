@@ -1,3 +1,5 @@
+package syntax;
+
 // An enum is a special "class" that represents a group of constants.
 // Enum inside a Class:
 public class Level {

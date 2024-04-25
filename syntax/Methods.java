@@ -1,3 +1,5 @@
+package syntax;
+
 public class Methods {
   // static means that the method belongs to the Main class and not an object of
   // the Main class.

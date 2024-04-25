@@ -1,3 +1,5 @@
+package syntax;
+
 abstract class AbstractAnimal {
   // Abstract method (does not have a body)
   public abstract void animalSound();

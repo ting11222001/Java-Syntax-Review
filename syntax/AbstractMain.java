@@ -1,3 +1,5 @@
+package syntax;
+
 abstract class AbstractMain {
   public String firstName = "Jane";
   public int age = 24;
